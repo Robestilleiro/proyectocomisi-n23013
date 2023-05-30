@@ -25,4 +25,24 @@ ul {
 
 color {
   background-color:black }
-  
+
+  @media screen and (max-width: 600px) {
+    main {
+      grid-template-columns: repeat(2, 2fr);
+      grid-template-rows: auto;
+    }
+    .iframe {
+      width: 70%;
+      height: 50%;
+    }
+    .div_row {
+      width: 50%;
+      height: 50%;
+    }
+  }
+  @media screen and (max-width: 480px) 
+   {  main {
+      grid-template-columns: repeat(2, 2fr);
+      grid-template-rows: auto;
+    }
+  }
