@@ -1,5 +1,5 @@
-
-ul {
+nav 
+  ul {
     list-style-type: none;
     margin: 0;
     padding-left: 0%;
@@ -10,9 +10,9 @@ ul {
     width: 100%;
   }
 
-  li {
+   li {
   float: left;
-  display: block;
+  display:inline-flex;
   color: rgb(50, 79, 208);
   text-align: auto;
   padding: 12px 15px;
@@ -22,6 +22,7 @@ ul {
   li a {
     text-decoration: none;
   }
+
 
 color {
   background-color:black }
